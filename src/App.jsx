@@ -5,7 +5,6 @@ import {Hero} from "./modules/Hero/Hero.jsx";
 import {Filter} from "./modules/Filter/Filter.jsx";
 import {Subscribe} from "./modules/Subscribe/Subscribe.jsx";
 import {Order} from "./modules/Order/Order.jsx";
-import {OrderFinish} from "./modules/OrderFinish/OrderFinish.jsx";
 
 export const App = () => {
     return (
@@ -24,9 +23,8 @@ export const App = () => {
 
             <Footer/>
 
-            <Order />
+            <Order/>
 
-            <OrderFinish />
         </>
     )
 }
